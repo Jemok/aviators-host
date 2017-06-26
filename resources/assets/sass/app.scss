@@ -8,3 +8,68 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+.header{
+  display: flex;
+  margin-top: 2em;
+  margin-left: 85%;
+  height: 4em;
+  justify-content: space-around;
+}
+.footer{
+  width: 100%;
+  background-color: #1C2B39;
+  height: 20em;
+  color: white;
+  display: flex;
+}
+.content{
+  text-align: center;
+  margin:auto;
+  padding: 1em;
+}
+.content_two{
+  background-color: lightgray;
+  padding: 2em;
+  display: flex;
+}
+.left {
+  display: flex;
+}
+.item {
+  display: flex;
+  list-style: none;
+  padding: 1px;
+}
+
+.right {
+  text-align: right;
+  margin-left:50%;
+}
+.body{
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+div.icon {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  display: block;
+}
+
+div.icon:hover {
+  border: 1px solid #777;
+}
+
+div.icon img {
+  width: 100%;
+  height: auto;
+  box-shadow: darkgrey;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

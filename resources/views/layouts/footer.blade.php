@@ -19,7 +19,7 @@
             <li><a href="#">Experiences</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
-        <p class="item">
+        <p class="copy">
             &copy;Copyright 2016 Aviators Business
         </p>
     </div>
