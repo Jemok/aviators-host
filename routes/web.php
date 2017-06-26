@@ -12,5 +12,22 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/about-aviators', function (){
+   return view('about');
+});
+
+Route::get('/office-solutions', function (){
+    return view('office-solutions');
+});
+
+Route::get('/experiences', function (){
+    return view('experiences');
+});
+
+Route::get('/contacts', function (){
+    return view('contacts');
+});
+
