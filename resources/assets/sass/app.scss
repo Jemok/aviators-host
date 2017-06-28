@@ -7,7 +7,9 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
+*{
+  max-width: 100%;
+}
 .header{
   display: flex;
   margin-top: 2em;
@@ -38,25 +40,27 @@
 .item {
   display: flex;
   list-style: none;
-<<<<<<< HEAD
   padding: 1px;
-=======
->>>>>>> 511b0a86d11bb0e79dbd812643615d9a1bee5b08
 }
 
 .right {
   text-align: right;
   margin-left:50%;
 }
-<<<<<<< HEAD
+
 .body{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
 }
 
+.icons{
+  margin: auto;
+  padding: 2em;
+}
+
 div.icon {
-  margin: 5px;
+  margin-left: 5em;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
@@ -69,15 +73,18 @@ div.icon:hover {
 
 div.icon img {
   width: 100%;
-  height: auto;
+  height: 250px;
   box-shadow: darkgrey;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
-=======
-
+}
+.para{
+  text-align: center;
+  padding: 2em;
+}
 .social-icons{
   margin-top: 2%;
   margin-right: 2%;
@@ -86,5 +93,32 @@ div.desc {
 .logo{
   margin-left: 7%;
   padding-bottom: 1%;
->>>>>>> 511b0a86d11bb0e79dbd812643615d9a1bee5b08
+}
+
+.landing-image{
+  margin-left: 10%;
+}
+.landing{
+  text-align: center;
+}
+.about{
+  margin-left: 20%;
+  padding: 2em;
+}
+.about_us{
+  background-color: gainsboro;
+}
+.us{
+  margin-left: 10%;
+  text-align: center;
+}
+.testimony{
+  padding:0px;
+  margin: 0px;
+  display: flex;
+
+}
+.galary{
+  padding: 4em;
+  margin: 4em;
 }
