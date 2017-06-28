@@ -21,19 +21,19 @@
         <div class="col-md-4">
             <div class="form-group">
                 <label class="control-label" for="inputDefault">First Name</label>
-                <input class="form-control" id="inputDefault" type="text">
+                <input class="form-control" id="inputDefault" placeholder="First Name" type="text">
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputDefault">Second Name</label>
-                <input class="form-control" id="inputDefault" type="text">
+                <input class="form-control" id="inputDefault" placeholder="Second Name" type="text">
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputDefault">Phone Number</label>
-                <input class="form-control" id="inputDefault" type="number">
+                <input class="form-control" id="inputDefault" placeholder="Phone Number" type="phone_number">
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputDefault">Email</label>
-                <input class="form-control" id="inputDefault" type="email">
+                <input class="form-control" id="inputDefault" placeholder="Email" type="email">
             </div>
             <div class="form-group">
                 <label class="control-label" for="inputDefault">Message/Enquiry/Thoughts</label>
