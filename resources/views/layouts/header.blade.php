@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-
 </head>
 <body>
 <div class="container-fluid">
@@ -22,7 +20,7 @@
                 <img src="{{ asset('images/logo.svg')  }}" width="178" height="75" alt="" data-mu-svgfallback="images/logo_poster_.png"/>
             </div>
             <div class="col-md-6" style="margin-top: 10%;">
-               <span>
+               <span class="row_p">
                 Let your business fly
             </span>
             </div>
