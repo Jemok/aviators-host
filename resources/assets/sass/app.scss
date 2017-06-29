@@ -28,6 +28,9 @@
   text-align: center;
   margin:auto;
   padding:0 1em ;
+  padding: 1em;
+  padding-top: 1%;
+
 }
 .content_two{
   background-color: lightgray;
@@ -103,98 +106,193 @@ div.desc {
   margin-left: 7%;
   padding-bottom: 1%;
 }
+
 .row_p{
   margin-top:4em;
   padding-bottom: 0;
 }
-.row_p:before{
+.row_p:before {
   content: '|';
   padding: 0 5px;
-  color:  #1C2B39;
-}
+  color: #1C2B39;
 
-.landing-image{
-  padding-left: 10%;
-  padding-bottom: 2em;
-  border-bottom: solid #1C2B39 ;
-}
-.landing{
-  text-align: center;
-}
-.about{
-  margin-left: 10%;
-  padding: 2em;
-}
-.about_us{
-  background-color: gainsboro;
-}
-.us{
-  margin-left: 10%;
-  text-align: center;
-}
-.us h1{
-  font-size: 4em;
-}
-.us p{
-  padding-bottom: 2em;
-}
-.testimony{
-  margin: auto;
-  width: 100%;
-  float: left;
-  padding-bottom: 2em;
-}
-.lady{
-  width: 50%;
-  float: left;
-  border-right: 1px solid;
-  border-bottom-color: #1C2B39;
-}
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    .landing-image {
+      width: 50%;
+      height: 349px;
+      padding: 0;
+    }
+  }
 
-.lady img{
-  margin-left: 160px;
-}
-.gent img{
-margin-left: 90px;
-}
-.lady-item{
-  width: 35%;
-  float:right;
-  padding-left: 20px;
-  margin-right: 30px;
-}
-.gent{
-  float: right;
-  width: 50%;
-}
-.gent-item{
- float: right;
-  width: 35%;
-  margin-right: 120px;
-  padding-left: 20px;
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .landing-image {
+      width: 100%;
+      padding: 0;
+    }
+  }
 
-}
-.galary{
-  background: darkgray;
-  padding-left: 10em;
-  padding-bottom: 4em;
-}
-.galary p{
-  padding-bottom:2em;
-}
-.galary img {
-  padding-left: 10px;
-  padding-bottom: 15px;
-}
-.get_in{
-  padding-left: 40px;
-}
-.contacts{
-  width: 80%;
-  margin:auto;
-  padding: 2em;
-}
-.contact_p{
-  text-align: center;
-  padding-bottom: 1em;
+  .row.vdivide [class*='col-']:not(:last-child):after {
+    background: black;
+    width: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 15px;
+  }
+
+  .copyright-text {
+    margin-left: 7%;
+  }
+
+  .logo-bottom {
+    margin-right: 10%;
+  }
+
+  #myCarousel .nav a small {
+    display: block;
+  }
+  #myCarousel .nav {
+    background: #eee;
+  }
+  #myCarousel .nav a {
+    border-radius: 0px;
+  }
+
+  .para-info {
+    padding-left: 5%;
+  }
+
+  .blogShort {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .btn-blog {
+    color: #ffffff;
+    background-color: #37d980;
+    border-color: #37d980;
+    border-radius: 0;
+    margin-bottom: 10px
+  }
+  .btn-blog:hover,
+  .btn-blog:focus,
+  .btn-blog:active,
+  .btn-blog.active,
+  .open .dropdown-toggle.btn-blog {
+    color: white;
+    background-color: #34ca78;
+    border-color: #34ca78;
+  }
+  article h2 {
+    color: #333333;
+  }
+  h2 {
+    color: #34ca78;
+  }
+  .margin10 {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .icon-color {
+    color: red;
+  }
+
+  .button-color {
+    background-color: #1C2B39;
+  }
+
+  .fa-facebook-official {
+    color: #3b5998;
+  }
+  .landing-image {
+    padding-left: 10%;
+    padding-bottom: 2em;
+    border-bottom: 1px solid;
+    border-bottom-color: #1C2B39;
+  }
+  .landing {
+    text-align: center;
+  }
+  .about {
+    margin-left: 10%;
+    padding: 2em;
+  }
+  .about_us {
+    background-color: gainsboro;
+  }
+  .us {
+    margin-left: 10%;
+    text-align: center;
+  }
+  .us h1 {
+    font-size: 4em;
+  }
+  .us p {
+    padding-bottom: 2em;
+  }
+  .testimony {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding-bottom: 2em;
+  }
+  .lady {
+    width: 50%;
+    float: left;
+    border-right: 1px solid;
+    border-bottom-color: #1C2B39;
+  }
+
+  .lady img {
+    margin-left: 160px;
+  }
+  .gent img {
+    margin-left: 90px;
+  }
+  .lady-item {
+    width: 35%;
+    float: right;
+    padding-left: 20px;
+    margin-right: 30px;
+  }
+  .gent {
+    float: right;
+    width: 50%;
+  }
+  .gent-item {
+    float: right;
+    width: 35%;
+    margin-right: 120px;
+    padding-left: 20px;
+
+  }
+  .galary {
+    background: darkgray;
+    padding-left: 10em;
+    padding-bottom: 4em;
+  }
+  .galary p {
+    padding-bottom: 2em;
+  }
+  .galary img {
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+  .get_in {
+    padding-left: 40px;
+  }
+  .contacts {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+  }
+  .contact_p {
+    text-align: center;
+    padding-bottom: 1em;
+  }
 }
