@@ -19,10 +19,6 @@ Route::get('/about-aviators', function (){
    return view('about');
 });
 
-Route::get('/office-solutions', function (){
-    return view('office-solutions');
-});
-
 Route::get('/experiences', function (){
     return view('experiences');
 });
@@ -30,4 +26,17 @@ Route::get('/experiences', function (){
 Route::get('/contacts', function (){
     return view('contacts');
 });
+
+Route::get('/serviced-offices', function (){
+    return view('serviced-offices');
+});
+
+Route::get('/meeting-and-boardroom', function (){
+    return view('meeting-and-boardroom');
+});
+
+Route::get('/virtual-offices', function (){
+    return view('virtual-offices');
+});
+
 

@@ -12,7 +12,6 @@
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('about-aviators') }}">About Aviators</a></li>
-                <li><a href="{{ url('office-solutions') }}">Office Solutions</a></li>
                 <li><a href="{{ url('experiences') }}">Experiences</a></li>
                 <li><a href="{{ url('contacts') }}">Contact Us</a></li>
             </ul>
