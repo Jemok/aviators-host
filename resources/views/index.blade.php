@@ -102,7 +102,7 @@
                     Lorem Ipsum.
                 </p>
 
-                <a href="" class="btn btn-info btn-lg text-center">Find out more</a>
+                <a href="{{ url('serviced-offices') }}" class="btn btn-info btn-lg text-center">Find out more</a>
             </article>
         </div>
         <div class="col-md-offset-1 col-md-10 blogShort">
@@ -116,7 +116,7 @@
                     of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
                     Lorem Ipsum.
                 </p>
-                <a href="" class="btn btn-info btn-lg text-center">Find out more</a>
+                <a href="{{ url('virtual-offices') }}" class="btn btn-info btn-lg text-center">Find out more</a>
             </article>
         </div>
 
@@ -131,7 +131,7 @@
                     of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
                     Lorem Ipsum.
                 </p>
-                <a href="" class="btn btn-info btn-lg text-center">Find out more</a>
+                <a href="{{ url('meeting-and-boardroom') }}" class="btn btn-info btn-lg text-center">Find out more</a>
             </article>
         </div>
     </div>
