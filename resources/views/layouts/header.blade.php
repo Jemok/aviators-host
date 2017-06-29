@@ -20,6 +20,7 @@
         <div class="pull-left logo">
             <img src="{{ asset('images/logo.svg')  }}" width="178" height="75" alt="" data-mu-svgfallback="images/logo_poster_.png"/>
         </div>
+         <p class="row_p">Let your business fly</p>
         <div class="pull-right social-icons">
             <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
             <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>

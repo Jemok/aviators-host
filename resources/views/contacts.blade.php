@@ -5,11 +5,12 @@
 <div class="container-fluid landing-image">
     <img src="{{ asset('images/contact.jpg') }}" 	width="699px" height="349px">
 </div>
-<div class="container-fluid">
-    <p> For more information </p>
+<div class="container">
+    <div class="contacts">
+    <p class="contact_p"> For more information </p>
     <div class="row">
-        <div class="col-md-4">
-          <h3>Get in touch </h3>
+        <div class="col-md-6 get_in">
+            <h3><u>Get in touch </u></h3>
             <p> Aviators Business Park, Nyerere Road.</p>
             <p>Luther Plaza, 1st Floor, Left wing.</p>
             <p>P.O.Box 58339 - 00200</p>
@@ -18,7 +19,7 @@
             <p> +254 795 600 060</p>
             <p>Email: info@aviators.co.ke</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6 border">
             <div class="form-group">
                 <label class="control-label" for="inputDefault">First Name</label>
                 <input class="form-control" id="inputDefault" placeholder="First Name" type="text">
@@ -39,8 +40,9 @@
                 <label class="control-label" for="inputDefault">Message/Enquiry/Thoughts</label>
                 <textarea class="form-control" rows="3" id="textArea"></textarea>
             </div>
-            <a href="#" class="btn btn-primary">Submit</a>
+            <a href="#" class="btn btn-primary ">Send</a>
         </div>
     </div>
+</div>
 </div>
 @include('layouts.footer')
