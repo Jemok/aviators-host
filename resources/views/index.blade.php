@@ -2,7 +2,7 @@
 
 @include('layouts.nav')
 <div class="container-fluid">
-    <div class="row">
+    <div class="row index">
         <div id="carousel-example-generic" class="carousel slide col-md-offset-1 col-md-7 landing-image" data-ride="carousel">
             <!-- Indicators -->
             {{--<ol class="carousel-indicators">--}}
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 1%;">
+    <div class="row " style="margin-top: 1%; margin-bottom: 2em">
         <h1 class="text-center" style="padding-top: 1%;">
             Office solutions
         </h1>

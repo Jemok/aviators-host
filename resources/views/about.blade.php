@@ -4,6 +4,16 @@
 
 <div class="container-fluid landing-image">
     <img src="{{ asset('images/about_us.jpg') }}" width="699px" height="349px">
+    <div class="lorem">
+        <h4>Lorem</h4>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta ducimus ea laboriosam molestias nam
+            omnis quasi ratione rem, repellendus reprehenderit sed unde.
+            Asperiores eos ex nihil quasi unde? Illo!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores commodi consequuntur corporis
+            dignissimos et illum impedit ipsam labore laboriosam laudantium libero magnam, modi natus obcaecati praesentium
+            soluta vel vero.
+        </p>
+    </div>
 </div>
 <div class="container about ">
     <div class="row">
