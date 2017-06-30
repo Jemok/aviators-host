@@ -30,6 +30,8 @@
     <img src="{{ asset('images/welcome.jpg') }}" 	width="350px" height="250px">
     <img src="{{ asset('images/logo.jpg') }}"   	width="350px" height="250px">
     <img src="{{ asset('images/corridor.jpg') }}" 	width="350px" height="250px">
+    <img src="{{ asset('images/On-duty.jpg') }}" 	width="350px" height="250px">
+
 </div>
 
 @include('layouts.footer')
