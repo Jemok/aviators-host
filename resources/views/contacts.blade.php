@@ -1,7 +1,5 @@
 @include('layouts.header')
 
-@include('layouts.nav')
-
 <div class="container-fluid landing-image">
     <img src="{{ asset('images/contact.jpg') }}" 	width="699px" height="349px">
 </div>

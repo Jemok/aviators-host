@@ -1,5 +1,4 @@
-@yield('content')
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-aviators">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                 aria-expanded="false" aria-controls="navbar">
@@ -13,6 +12,9 @@
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('about-aviators') }}">About Aviators</a></li>
                 <li><a href="{{ url('experiences') }}">Experiences</a></li>
+                <li><a href="{{ url('experiences') }}">Serviced offices</a></li>
+                <li><a href="{{ url('experiences') }}">Meeting and boardrooms</a></li>
+                <li><a href="{{ url('experiences') }}">Virtual offices</a></li>
                 <li><a href="{{ url('contacts') }}">Contact Us</a></li>
             </ul>
 
@@ -28,3 +30,5 @@
         </div>
     </div>
 </nav>
+
+@yield('content')
