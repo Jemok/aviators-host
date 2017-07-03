@@ -1,40 +1,18 @@
 @include('layouts.header')
 <div class="container-fluid">
-    <div class="row" style="margin-top: -22px;">
-        <div class="col-md-6 cuadro_intro_hover" style="border-right: 1px #1C2B39 solid; border-bottom: 1px #1C2B39 solid;">
-            <img src="{{ asset('images/aviators-landing-2.jpg') }}" class="img-responsive" alt="">
-            <div class="caption">
-                <div class="col-md-12 blur"></div>
-                <div class="col-md-12 caption-text">
-                    <h3>
-                         <span class="badge" style="background-color: red;">
+        <div class="row">
+            <img src="{{ asset('images/aviators-landing-2.jpg') }}" class="img-responsive center-block" width="40%" alt="">
+        </div>
+        <div class="col-md-9 col-md-offset-1" style="margin-top: 1%;">
+            <h1 class="text-center text-aviators">
+                <span class="badge" style="background-color: red;">
                             1
                         </span>
-                        First Class Business</h3>
-                    <p>
-                         <span class="badge" style="background-color: red;">
-                            2
-                        </span>
-                        Book your business with Aviator and we will book you to a first class experience.</p>
-
-                    <button class="btn btn-default btn-lg btn-email" data-toggle="modal" data-target="#bookTour">
-                        <i class="fa fa-envelope" aria-hidden="true"></i> Email us
-                    </button>
-
-                    {{--<a class=" btn btn-default" href="http://trovacamporella.com"><span class="glyphicon glyphicon-plus"> INFO</span></a>--}}
-                </div>
-            </div>
-        </div>
-        <div class="row col-md-6" style="margin-top: 4%;">
-            <h4 class="text-center text-aviators">
-                <span class="badge" style="background-color: red;">
-                            3
-                        </span>
                 Lorem
-            </h4>
+            </h1>
             <p class="text-center text-aviators">
                 <span class="badge" style="background-color: red;">
-                            4
+                            2
                         </span>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta ducimus ea laboriosam molestias nam
                 omnis quasi ratione rem, repellendus reprehenderit sed unde.
@@ -44,21 +22,20 @@
                 soluta vel vero.
             </p>
         </div>
-    </div>
 </div>
-<div class="container about ">
+<div class="container about">
     <div class="row">
         <div class="col-md-6">
             <h3><u>
                      <span class="badge" style="background-color: red;">
-                            5
+                            3
                         </span>
-                    Who we
+                    Who are we
                 </u>
             </h3>
             <p>
                 <span class="badge" style="background-color: red;">
-                            6
+                            4
                         </span>
                 We are a leading provider of flexible office solutions, virtual offices,
                 meeting rooms and Boardroom hire in Nairobi.
@@ -71,38 +48,39 @@
         <div class="col-md-6">
             <h3><u>
                     <span class="badge" style="background-color: red;">
-                            7
+                            5
                         </span>
                     Our Vision
                 </u>
             </h3>
             <p>
                 <span class="badge" style="background-color: red;">
-                            8
+                            6
                         </span>
                 To be the leader in providing affordable world class office space.
             </p>
             <h3><u>
                     <span class="badge" style="background-color: red;">
-                            9
+                            7
                         </span>
                     Our Mission
                 </u></h3>
             <p>
                 <span class="badge" style="background-color: red;">
-                            10
+                            8
                         </span>
                 To help companies prosper through our office solutions</p>
             <h3><u>
                     <span class="badge" style="background-color: red;">
-                            11
+                            9
                         </span>
                     Our Values</u></h3>
             <p>
                 <span class="badge" style="background-color: red;">
-                            12
+                            10
                         </span>
                 Integrity, professionalism, Innovation, Quality service, Staff Empowerment and Teamwork</p>
+
         </div>
     </div>
 </div>
@@ -110,12 +88,12 @@
     <div class="us">
         <h1 class="lead">
             <span class="badge" style="background-color: red;">
-                            13
+                            11
                         </span>
             What they say about Us</h1>
         <p class="lead">
             <span class="badge" style="background-color: red;">
-                            14
+                            12
                         </span>
             Whatever your business,Whatever your budget, we help your business fly</p>
     </div>
@@ -127,41 +105,41 @@
             <div class="col-md-7">
                 <p>
                     <span class="badge" style="background-color: red;">
-                            15
+                            13
                         </span>
                     We had an infrastructure project in Kenya and needs a liasim office,
                     Aviators gave us solutions. Asante</p>
                 <h3>
                     <span class="badge" style="background-color: red;">
-                            16
+                            14
                         </span>
                     Bridgite</h3>
                 <p>
                     <span class="badge" style="background-color: red;">
-                            17
+                            15
                         </span>
                     Thysenkupp Corp. Dulsberg</p>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div class="row col-md-5">
                 <img src="{{asset('images/gent.jpg')}}" height="170px" width="200px">
             </div>
             <div class="col-md-7">
                 <p>
                     <span class="badge" style="background-color: red;">
-                            18
+                            16
                         </span>
                     We had an infrastructure project in Kenya and needs a liasim office,
                     Aviators gave us solutions. Asante</p>
                 <h3>
                     <span class="badge" style="background-color: red;">
-                            19
+                            17
                         </span>
                     Denise Peppard</h3>
                 <p>
                     <span class="badge" style="background-color: red;">
-                            20
+                            18
                         </span>
                     Northrop Gunmann</p>
             </div>

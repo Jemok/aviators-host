@@ -1,21 +1,21 @@
 /*
 Error: File to import not found or unreadable: node_modules/bootstrap-sass/assets/stylesheets/bootstrap.
-        on line 9 of app.scss
+        on line 6 of app.scss
 
-4: 
-5: // Variables
-6: @import "variables";
+1: // Fonts
+2: @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+3: // Variables
+4: @import "variables";
+5: // Bootstrap
+6: @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 7: 
-8: // Bootstrap
-9: @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-10: *{
-11:   max-width: 100%;
-12: }
-13: .header{
-14:   display: flex;
+8: * {
+9:   max-width: 100%;
+10: }
+11: .navbar{
 
 Backtrace:
-app.scss:9
+app.scss:6
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -58,4 +58,4 @@ C:/Ruby24-x64/bin/scss:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: node_modules/bootstrap-sass/assets/stylesheets/bootstrap.\A         on line 9 of app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\A 10: *{\A 11:   max-width: 100%;\A 12: }\A 13: .header{\A 14:   display: flex;"; }
+  content: "Error: File to import not found or unreadable: node_modules/bootstrap-sass/assets/stylesheets/bootstrap.\A         on line 6 of app.scss\A \A 1: // Fonts\A 2: @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);\A 3: // Variables\A 4: @import \"variables\";\A 5: // Bootstrap\A 6: @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\A 7: \A 8: * {\A 9:   max-width: 100%;\A 10: }\A 11: .navbar{"; }

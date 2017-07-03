@@ -68,7 +68,6 @@
             {{--</div>--}}
         </div>
     </div>
-
     <h1 class="text-center text-aviators" style="padding-top: 1%;">
         <span class="badge" style="background-color: red;">
                             5
@@ -114,7 +113,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                     ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
                 </p>
-                <a href="{{ url('serviced-offices') }}" class="btn btn-info btn-sm btn-email">
+                <a href="{{ url('virtual-offices') }}" class="btn btn-info btn-sm btn-email">
                     Find out more <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </a>
             </article>
@@ -135,7 +134,7 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                     ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
                 </p>
-                <a href="{{ url('serviced-offices') }}" class="btn btn-info btn-sm btn-email">
+                <a href="{{ url('meeting-and-boardroom') }}" class="btn btn-info btn-sm btn-email">
                     Find out more <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </a>
             </article>

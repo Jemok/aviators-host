@@ -24,7 +24,6 @@
             </span>
         </div>
     </div>
-
     <div class="pull-right social-icons">
          <span class="text-aviators">
                 <i class="fa fa-phone fa-2x" aria-hidden="true"></i>&nbsp;
@@ -41,7 +40,6 @@
     </div>
 </div>
 
-
 <nav class="navbar navbar-aviators navbar-static-top">
     <div class="container">
         <div class="navbar-header">
@@ -55,9 +53,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ url('about-aviators') }}">About Aviators</a></li>
-                    <li><a href="{{ url('experiences') }}">Serviced offices</a></li>
-                    <li><a href="{{ url('experiences') }}">Meeting and boardroom</a></li>
-                    <li><a href="{{ url('experiences') }}">Virtual offices</a></li>
+                    <li><a href="{{ url('serviced-offices') }}">Serviced offices</a></li>
+                    <li><a href="{{ url('meeting-and-boardroom') }}">Meeting and boardroom</a></li>
+                    <li><a href="{{ url('virtual-offices') }}">Virtual offices</a></li>
                     <li><a href="{{ url('experiences') }}">Experiences</a></li>
                     <li><a href="{{ url('contacts') }}">Contact Us</a></li>
                 </ul>
@@ -65,5 +63,4 @@
         </div>
     </div>
 </nav>
-
 </body>
